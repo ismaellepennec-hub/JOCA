@@ -15,10 +15,11 @@ export default function Footer() {
       <div className="mx-auto max-w-[1120px] px-6 pb-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Col 1 — Cabinet */}
         <div>
-          <p className="font-serif text-xl font-semibold text-white">JOCA</p>
-          <p className="text-xs tracking-[0.25em] text-white/50 uppercase mb-4">
-            Services
-          </p>
+          <img
+            src="/images/logo-white.png"
+            alt="JOCA Services"
+            className="h-14 w-auto mb-4"
+          />
           <p className="text-sm text-white/60 leading-relaxed">
             Cabinet indépendant dédié à la structuration du contrôle des
             délégataires en environnement assurance.

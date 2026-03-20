@@ -15,7 +15,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/">
           <img
-            src="/images/logo.svg"
+            src="/images/logo.png"
             alt="JOCA Services"
             className="h-20 w-auto"
           />
