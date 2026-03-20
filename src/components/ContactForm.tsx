@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { supabase } from "@/lib/supabase";
 
 interface FormData {
   nom: string;
@@ -27,12 +28,8 @@ export default function ContactForm() {
     setStatus("submitting");
 
     try {
-      // TODO: Connecter à Supabase
-      // const { error } = await supabase.from("contact_submissions").insert([form]);
-      // if (error) throw error;
-
-      // Simulation temporaire
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      const { error } = await supabase.from("contact_submissions").insert([form]);
+      if (error) throw error;
       setStatus("success");
     } catch {
       setStatus("error");

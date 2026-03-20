@@ -46,11 +46,23 @@ export default function Accueil() {
               Avec le temps, cependant, le dispositif peut devenir difficile à
               lire dans son ensemble&nbsp;:
             </p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Responsabilités réparties entre plusieurs directions</li>
-              <li>Contrôles organisés de manière hétérogène</li>
-              <li>Preuves dispersées</li>
-              <li>Gouvernance peu formalisée.</li>
+            <ul className="list-none space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Responsabilités réparties entre plusieurs directions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Contrôles organisés de manière hétérogène</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Preuves dispersées</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Gouvernance peu formalisée.</span>
+              </li>
             </ul>
           </div>
         </div>

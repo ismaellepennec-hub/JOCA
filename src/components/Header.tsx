@@ -13,13 +13,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-gray-border">
       <div className="mx-auto max-w-[1120px] px-6 flex items-center justify-between h-20">
         {/* Logo */}
-        <Link href="/" className="flex flex-col items-center leading-none">
-          <span className="font-serif text-2xl font-semibold tracking-wide text-navy">
-            JOCA
-          </span>
-          <span className="text-[0.65rem] font-sans tracking-[0.25em] text-navy/70 uppercase">
-            Services
-          </span>
+        <Link href="/">
+          <img
+            src="/images/logo.svg"
+            alt="JOCA Services"
+            className="h-20 w-auto"
+          />
         </Link>
 
         {/* Desktop nav */}

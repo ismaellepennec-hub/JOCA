@@ -66,15 +66,22 @@ export default function Offre() {
           </h3>
           <div className="mt-4 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
             <p>Le diagnostic vise à&nbsp;:</p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Établir une lecture claire du dispositif existant</li>
-              <li>Identifier les éventuelles zones de fragilité</li>
-              <li>
-                Clarifier la gouvernance de contrôles et des actions correctives
+            <ul className="list-none space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Établir une lecture claire du dispositif existant</span>
               </li>
-              <li>
-                Renforcer la traçabilité des contrôles et des actions
-                correctives.
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Identifier les éventuelles zones de fragilité</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Clarifier la gouvernance de contrôles et des actions correctives</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Renforcer la traçabilité des contrôles et des actions correctives.</span>
               </li>
             </ul>
             <p>
@@ -96,16 +103,22 @@ export default function Offre() {
               À l&apos;issue de la mission, l&apos;organisation dispose
               notamment&nbsp;:
             </p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>D&apos;un diagnostic indépendant du dispositif</li>
-              <li>
-                D&apos;une vision consolidée des délégations et du dispositif de
-                contrôle
+            <ul className="list-none space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>D&apos;un diagnostic indépendant du dispositif</span>
               </li>
-              <li>D&apos;un plan d&apos;actions priorisé</li>
-              <li>
-                De recommandations visant à renforcer la gouvernance et la
-                traçabilité.
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>D&apos;une vision consolidée des délégations et du dispositif de contrôle</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>D&apos;un plan d&apos;actions priorisé</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>De recommandations visant à renforcer la gouvernance et la traçabilité.</span>
               </li>
             </ul>
           </div>
@@ -125,11 +138,23 @@ export default function Offre() {
               délégataires.
             </p>
             <p>L&apos;intervention consiste notamment à&nbsp;:</p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Clarifier les responsabilités entre directions</li>
-              <li>Formaliser les processus de contrôle</li>
-              <li>Structurer les supports de traçabilité</li>
-              <li>Consolider la gouvernance du dispositif.</li>
+            <ul className="list-none space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Clarifier les responsabilités entre directions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Formaliser les processus de contrôle</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Structurer les supports de traçabilité</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Consolider la gouvernance du dispositif.</span>
+              </li>
             </ul>
             <p className="font-medium text-navy">
               L&apos;objectif est de disposer d&apos;un dispositif cohérent,
@@ -151,11 +176,23 @@ export default function Offre() {
               cohérence dans le temps.
             </p>
             <p>Cette intervention vise à&nbsp;:</p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Suivre l&apos;évolution du dispositif</li>
-              <li>Ajuster l&apos;organisation des contrôles</li>
-              <li>Accompagner les évolutions organisationnelles</li>
-              <li>Préserver la lisibilité du dispositif.</li>
+            <ul className="list-none space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Suivre l&apos;évolution du dispositif</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Ajuster l&apos;organisation des contrôles</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Accompagner les évolutions organisationnelles</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Préserver la lisibilité du dispositif.</span>
+              </li>
             </ul>
             <p className="font-medium text-navy">
               L&apos;objectif est d&apos;éviter que le dispositif ne perde

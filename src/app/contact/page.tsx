@@ -22,10 +22,19 @@ export default function Contact() {
             accompagnement.
           </p>
           <p>Cet échange permet notamment de&nbsp;:</p>
-          <ul className="list-disc pl-6 space-y-1">
-            <li>Comprendre l&apos;organisation actuelle du dispositif</li>
-            <li>Identifier les enjeux principaux</li>
-            <li>Apprécier l&apos;intérêt d&apos;une intervention</li>
+          <ul className="list-none space-y-2">
+            <li className="flex items-start gap-2">
+              <span className="text-navy/40">·</span>
+              <span>Comprendre l&apos;organisation actuelle du dispositif</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-navy/40">·</span>
+              <span>Identifier les enjeux principaux</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-navy/40">·</span>
+              <span>Apprécier l&apos;intérêt d&apos;une intervention</span>
+            </li>
           </ul>
         </div>
 

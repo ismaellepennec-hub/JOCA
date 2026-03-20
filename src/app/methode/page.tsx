@@ -46,10 +46,19 @@ export default function Methode() {
               La méthode vise à transformer un ensemble de pratiques existantes
               en un dispositif&nbsp;:
             </p>
-            <ul className="list-disc pl-6 space-y-1">
-              <li>Lisible dans son organisation</li>
-              <li>Cohérent dans sa gouvernance</li>
-              <li>Structuré dans sa traçabilité.</li>
+            <ul className="list-none space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Lisible dans son organisation</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Cohérent dans sa gouvernance</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">·</span>
+                <span>Structuré dans sa traçabilité.</span>
+              </li>
             </ul>
             <p>
               L&apos;enjeu n&apos;est pas d&apos;ajouter de nouveaux contrôles.
@@ -80,11 +89,23 @@ export default function Methode() {
                 Comprendre comment le contrôle des délégataires est organisé
                 aujourd&apos;hui&nbsp;:
               </p>
-              <ul className="mt-2 list-disc pl-6 space-y-1 text-navy/70">
-                <li>Responsabilités</li>
-                <li>Contrôles réalisés</li>
-                <li>Circuits d&apos;information</li>
-                <li>Gouvernance.</li>
+              <ul className="mt-2 list-none space-y-2 text-navy/70">
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Responsabilités</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Contrôles réalisés</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Circuits d&apos;information</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Gouvernance.</span>
+                </li>
               </ul>
             </div>
 
@@ -97,10 +118,19 @@ export default function Methode() {
               <p className="mt-4 text-navy/70 leading-relaxed">
                 Organiser le dispositif de manière cohérente&nbsp;:
               </p>
-              <ul className="mt-2 list-disc pl-6 space-y-1 text-navy/70">
-                <li>Clarification des responsabilités</li>
-                <li>Formalisation des processus</li>
-                <li>Structuration de la traçabilité.</li>
+              <ul className="mt-2 list-none space-y-2 text-navy/70">
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Clarification des responsabilités</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Formalisation des processus</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Structuration de la traçabilité.</span>
+                </li>
               </ul>
             </div>
 
@@ -113,10 +143,19 @@ export default function Methode() {
               <p className="mt-4 text-navy/70 leading-relaxed">
                 Maintenir la cohérence du dispositif dans le temps&nbsp;:
               </p>
-              <ul className="mt-2 list-disc pl-6 space-y-1 text-navy/70">
-                <li>Suivi de son évolution</li>
-                <li>Adaptation aux changements organisationnels</li>
-                <li>Maintien de sa lisibilité.</li>
+              <ul className="mt-2 list-none space-y-2 text-navy/70">
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Suivi de son évolution</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Adaptation aux changements organisationnels</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">·</span>
+                  <span>Maintien de sa lisibilité.</span>
+                </li>
               </ul>
             </div>
           </div>

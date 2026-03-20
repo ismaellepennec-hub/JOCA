@@ -14,7 +14,7 @@ export default function Cabinet() {
       {/* Section principale — texte + photo */}
       <section className="bg-white py-24 md:py-32">
         <div className="mx-auto max-w-[1120px] px-6">
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_35%] gap-12 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_35%] gap-12 items-center">
             {/* Colonne texte (65-70%) */}
             <div>
               <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy">
@@ -73,16 +73,13 @@ export default function Cabinet() {
             </div>
 
             {/* Colonne photo (30-35%) */}
-            <div className="flex justify-center md:justify-end md:pt-4">
-              <div className="w-full max-w-[300px]">
-                {/* Placeholder — remplacer par la photo NB fournie par le client */}
-                <div className="aspect-[3/4] bg-gray-light border border-gray-border flex items-center justify-center text-navy/30 text-sm text-center px-4">
-                  Photo professionnelle
-                  <br />
-                  George-Carole BARBIER
-                  <br />
-                  (à fournir)
-                </div>
+            <div className="flex justify-center md:justify-end">
+              <div className="w-full max-w-[300px] bg-gray-light p-4 rounded-xl">
+                <img
+                  src="/images/cabinet-photo.png"
+                  alt="George-Carole BARBIER — Fondatrice de JOCA Services"
+                  className="w-full h-auto rounded-lg"
+                />
               </div>
             </div>
           </div>
