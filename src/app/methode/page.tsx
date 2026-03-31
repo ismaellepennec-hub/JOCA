@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CTAButton from "@/components/CTAButton";
+import DelegataControlSchema from "@/components/DelegataControlSchema";
 import ManifestoQuote from "@/components/ManifestoQuote";
 
 export const metadata: Metadata = {
@@ -189,6 +190,9 @@ export default function Methode() {
           </div>
         </div>
       </section>
+
+      {/* SCHÉMA DELEGATACONTROL™ */}
+      <DelegataControlSchema />
 
       {/* BLOC 4 — CIBLE */}
       <section className="bg-gray-light py-20">
