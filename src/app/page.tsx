@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import AvantApresSchema from "@/components/AvantApresSchema";
 import CTAButton from "@/components/CTAButton";
 import MirrorQuestion from "@/components/MirrorQuestion";
 
@@ -111,6 +112,7 @@ export default function Accueil() {
               les présenter de manière claire, structurée et traçable.
             </p>
           </div>
+          <AvantApresSchema />
         </div>
       </section>
 
