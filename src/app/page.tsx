@@ -156,12 +156,12 @@ export default function Accueil() {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
             {/* Brique 1 */}
-            <div>
-              <span className="text-sm font-medium text-navy/40">01</span>
-              <h3 className="mt-2 font-serif text-xl font-semibold text-navy">
+            <div className="border-t border-gray-border pt-6 flex flex-col gap-3">
+              <span className="text-sm text-navy/40">01</span>
+              <h3 className="font-serif text-xl font-semibold text-navy">
                 Diagnostic structuré
               </h3>
-              <ul className="mt-4 list-none space-y-2 text-navy/70 leading-relaxed">
+              <ul className="list-none space-y-2 text-navy/70 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
                   <span>Analyse du dispositif existant</span>
@@ -175,19 +175,19 @@ export default function Accueil() {
                   <span>Identification des zones de fragilité</span>
                 </li>
               </ul>
-              <p className="mt-4 text-navy font-medium leading-relaxed">
+              <p className="text-sm text-navy/50 mt-4">
                 Résultat&nbsp;: une lecture claire, indépendante et un plan
                 d&apos;actions priorisé
               </p>
             </div>
 
             {/* Brique 2 */}
-            <div>
-              <span className="text-sm font-medium text-navy/40">02</span>
-              <h3 className="mt-2 font-serif text-xl font-semibold text-navy">
+            <div className="border-t border-gray-border pt-6 flex flex-col gap-3">
+              <span className="text-sm text-navy/40">02</span>
+              <h3 className="font-serif text-xl font-semibold text-navy">
                 Structuration opérationnelle
               </h3>
-              <ul className="mt-4 list-none space-y-2 text-navy/70 leading-relaxed">
+              <ul className="list-none space-y-2 text-navy/70 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
                   <span>Clarification des rôles et responsabilités</span>
@@ -203,18 +203,18 @@ export default function Accueil() {
                   </span>
                 </li>
               </ul>
-              <p className="mt-4 text-navy font-medium leading-relaxed">
+              <p className="text-sm text-navy/50 mt-4">
                 Résultat&nbsp;: un dispositif structuré, cohérent et démontrable
               </p>
             </div>
 
             {/* Brique 3 */}
-            <div>
-              <span className="text-sm font-medium text-navy/40">03</span>
-              <h3 className="mt-2 font-serif text-xl font-semibold text-navy">
+            <div className="border-t border-gray-border pt-6 flex flex-col gap-3">
+              <span className="text-sm text-navy/40">03</span>
+              <h3 className="font-serif text-xl font-semibold text-navy">
                 Gouvernance &amp; monitoring
               </h3>
-              <ul className="mt-4 list-none space-y-2 text-navy/70 leading-relaxed">
+              <ul className="list-none space-y-2 text-navy/70 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
                   <span>Revue périodique du dispositif</span>
@@ -230,7 +230,7 @@ export default function Accueil() {
                   </span>
                 </li>
               </ul>
-              <p className="mt-4 text-navy font-medium leading-relaxed">
+              <p className="text-sm text-navy/50 mt-4">
                 Résultat&nbsp;: un dispositif maintenu dans le temps, sans perte
                 de lisibilité ni de cohérence
               </p>
