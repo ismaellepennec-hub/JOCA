@@ -56,8 +56,8 @@ export default function Offre() {
           {/* Question miroir */}
           <p className="mt-10 font-serif text-xl italic text-navy/80 max-w-2xl leading-relaxed border-l-2 border-navy pl-6">
             Seriez-vous aujourd&apos;hui en mesure de présenter de manière
-            claire l&apos;organisation complète de votre dispositif de contrôle
-            des délégataires&nbsp;?
+            claire et complète votre dispositif de contrôle des
+            délégataires&nbsp;?
           </p>
 
           {/* Objectif */}

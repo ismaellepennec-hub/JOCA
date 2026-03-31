@@ -66,11 +66,7 @@ export default function Accueil() {
       </section>
 
       {/* BLOC 3 — QUESTION DE POSITIONNEMENT */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-[1120px] px-6">
-          <MirrorQuestion />
-        </div>
-      </section>
+      <MirrorQuestion />
 
       {/* BLOC 4 — PROBLÈME */}
       <section className="bg-gray-light py-20">
