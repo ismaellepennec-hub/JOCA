@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import AvantApresSchema from "@/components/AvantApresSchema";
 import CTAButton from "@/components/CTAButton";
 import MirrorQuestion from "@/components/MirrorQuestion";
@@ -44,14 +43,13 @@ export default function Accueil() {
               </div>
             </div>
 
-            <div className="hidden md:block relative h-full min-h-[480px] rounded-xl overflow-hidden">
-              <Image
-                src="/images/hero-bg.jpg"
-                alt="Stylo sur document — JOCA Services"
-                fill
-                className="object-cover object-top"
-                priority
-              />
+            <div className="hidden md:flex flex-col items-center justify-center h-full min-h-[480px] bg-gray-light rounded-xl border border-gray-border border-dashed gap-3">
+              <p className="text-navy/30 text-sm font-medium text-center px-8">
+                Photo à fournir
+              </p>
+              <p className="text-navy/20 text-xs text-center px-8 leading-relaxed">
+                Cadrage serré — mains sur documents, stylo, bureau de travail
+              </p>
             </div>
           </div>
         </div>
