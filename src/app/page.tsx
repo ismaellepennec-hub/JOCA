@@ -127,12 +127,9 @@ export default function Accueil() {
             Nous intervenons pour structurer le dispositif et le rendre&nbsp;:
           </p>
 
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-3xl">
+          <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl">
             {["Lisible", "Cohérent", "Transmissible", "Pilotable"].map((item) => (
-              <div
-                key={item}
-                className="bg-gray-light border border-gray-border rounded-xl py-7 px-4 text-center"
-              >
+              <div key={item} className="border-t border-gray-border pt-4">
                 <span className="font-serif text-xl font-semibold text-navy">{item}</span>
               </div>
             ))}
