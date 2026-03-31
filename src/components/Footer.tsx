@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS, SITE_NAME, MANIFESTO_QUOTE } from "@/lib/constants";
 
@@ -15,9 +16,11 @@ export default function Footer() {
       <div className="mx-auto max-w-[1120px] px-6 pb-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Col 1 — Cabinet */}
         <div>
-          <img
+          <Image
             src="/images/logo-white.png"
             alt="JOCA Services"
+            width={124}
+            height={56}
             className="h-14 w-auto mb-4"
           />
           <p className="text-sm text-white/60 leading-relaxed">

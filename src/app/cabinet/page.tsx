@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import CTAButton from "@/components/CTAButton";
 import ManifestoQuote from "@/components/ManifestoQuote";
 
@@ -75,9 +76,11 @@ export default function Cabinet() {
             {/* Colonne photo (30-35%) */}
             <div className="flex justify-center md:justify-end">
               <div className="w-full max-w-[300px] bg-gray-light p-4 rounded-xl">
-                <img
+                <Image
                   src="/images/cabinet-photo.png"
                   alt="George-Carole BARBIER — Fondatrice de JOCA Services"
+                  width={300}
+                  height={450}
                   className="w-full h-auto rounded-lg"
                 />
               </div>

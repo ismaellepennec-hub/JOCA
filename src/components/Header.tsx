@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -14,9 +15,12 @@ export default function Header() {
       <div className="mx-auto max-w-[1120px] px-6 flex items-center justify-between h-20">
         {/* Logo */}
         <Link href="/">
-          <img
+          <Image
             src="/images/logo.png"
             alt="JOCA Services"
+            width={178}
+            height={80}
+            priority
             className="h-20 w-auto"
           />
         </Link>
