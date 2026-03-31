@@ -80,7 +80,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div>
+            <div className="md:pt-16">
               <h3 className="font-serif text-xl font-semibold text-navy">
                 Contact direct
               </h3>
