@@ -33,7 +33,7 @@ export default function Methode() {
       {/* BLOC 2 — OBJECTIF */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Un objectif clair
           </h2>
           <p className="mt-8 text-navy/70 max-w-2xl leading-relaxed">
@@ -75,7 +75,7 @@ export default function Methode() {
       {/* BLOC 3 — LES 3 ÉTAPES */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche progressive
           </h2>
 
@@ -197,7 +197,7 @@ export default function Methode() {
       {/* BLOC 4 — CIBLE */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche adaptée aux organisations structurées
           </h2>
           <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">

@@ -17,7 +17,7 @@ export default function Cabinet() {
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="grid grid-cols-1 md:grid-cols-[60%_38%] gap-12 items-start">
             <div>
-              <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy leading-tight">
+              <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-tight">
                 Un cabinet dédié à la structuration du contrôle des délégataires
               </h1>
               <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
@@ -52,7 +52,7 @@ export default function Cabinet() {
       {/* BLOC 2 — POSITIONNEMENT */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Le cabinet intervient sur des sujets où
           </h2>
           <ul className="mt-8 list-none space-y-3 max-w-2xl">
@@ -85,7 +85,7 @@ export default function Cabinet() {
       {/* BLOC 3 — APPROCHE */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche fondée sur 3 principes
           </h2>
           <div className="mt-8 max-w-2xl space-y-4">
@@ -115,7 +115,7 @@ export default function Cabinet() {
       {/* BLOC 4 — EXPERTISE & CE QUI DIFFÉRENCIE */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une expertise issue du terrain
           </h2>
           <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">

@@ -38,7 +38,7 @@ export default function Offre() {
           <p className="text-xs font-medium text-navy/40 uppercase tracking-widest">
             Brique 01
           </p>
-          <h2 className="mt-3 font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="mt-3 font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Diagnostic structuré
           </h2>
           <p className="mt-2 font-serif text-lg italic text-navy/60">
@@ -131,7 +131,7 @@ export default function Offre() {
           <p className="text-xs font-medium text-navy/40 uppercase tracking-widest">
             Brique 02
           </p>
-          <h2 className="mt-3 font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="mt-3 font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Structuration opérationnelle
           </h2>
           <p className="mt-2 font-serif text-lg italic text-navy/60">
@@ -177,7 +177,7 @@ export default function Offre() {
           <p className="text-xs font-medium text-navy/40 uppercase tracking-widest">
             Brique 03
           </p>
-          <h2 className="mt-3 font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="mt-3 font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Gouvernance &amp; monitoring
           </h2>
           <p className="mt-2 font-serif text-lg italic text-navy/60">
@@ -225,7 +225,7 @@ export default function Offre() {
       {/* BLOC 6 — MODALITÉS + CTA FINAL */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Modalités d&apos;intervention
           </h2>
           <p className="mt-6 text-navy/70 leading-relaxed">

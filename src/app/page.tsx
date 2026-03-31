@@ -21,7 +21,7 @@ export default function Accueil() {
               <p className="text-sm text-navy/50">
                 Mutuelles &amp; institutions de prévoyance
               </p>
-              <h1 className="mt-4 font-serif text-4xl md:text-5xl font-semibold text-navy max-w-2xl leading-tight">
+              <h1 className="mt-4 font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-tight">
                 Structurer le contrôle des délégataires… avant qu&apos;il ne
                 devienne difficile à expliquer, à piloter ou à transmettre
               </h1>
@@ -73,7 +73,7 @@ export default function Accueil() {
       {/* BLOC 4 — PROBLÈME */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Dans la plupart des organisations
           </h2>
           <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
@@ -120,7 +120,7 @@ export default function Accueil() {
       {/* BLOC 5 — CE QUE NOUS APPORTONS */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Ce que nous apportons
           </h2>
           <p className="mt-6 text-navy/70 max-w-2xl leading-relaxed">
@@ -224,11 +224,11 @@ export default function Accueil() {
       {/* BLOC 6 — LES 3 BRIQUES */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une intervention structurée en 3 briques
           </h2>
 
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
             {/* Brique 1 */}
             <div>
               <span className="text-sm font-medium text-navy/40">01</span>
@@ -324,7 +324,7 @@ export default function Accueil() {
       {/* BLOC 7 — MÉTHODE */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche structurée&nbsp;: DelegataControl™
           </h2>
           <p className="mt-6 text-navy/70 max-w-2xl leading-relaxed">

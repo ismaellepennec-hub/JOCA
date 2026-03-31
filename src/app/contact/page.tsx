@@ -33,7 +33,7 @@ export default function Contact() {
       {/* BLOC 2 — POSITIONNEMENT */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Les échanges s&apos;adressent principalement à
           </h2>
           <ul className="mt-8 list-none space-y-2 max-w-xl">
@@ -68,7 +68,7 @@ export default function Contact() {
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <div>
-              <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy">
+              <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
                 Prendre contact
               </h2>
               <p className="mt-4 text-navy/70 leading-relaxed">
