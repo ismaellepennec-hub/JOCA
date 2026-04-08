@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import AvantApresSchema from "@/components/AvantApresSchema";
 import CTAButton from "@/components/CTAButton";
-import MirrorQuestion from "@/components/MirrorQuestion";
 
 export const metadata: Metadata = {
   title: "JOCA Services — Structuration du contrôle des délégataires",
@@ -18,22 +17,35 @@ export default function Accueil() {
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-12 items-center">
             <div>
-              <p className="text-sm text-navy/50">
-                Mutuelles &amp; institutions de prévoyance
-              </p>
-              <h1 className="mt-4 font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-tight">
-                Structurer le contrôle des délégataires… avant qu&apos;il ne
-                devienne difficile à expliquer, à piloter ou à transmettre
+              <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-tight">
+                Quand le contrôle des délégataires repose sur des personnes et
+                des informations éparpillées, le dispositif devient fragile.
               </h1>
               <div className="mt-8 max-w-xl space-y-4 text-navy/70 leading-relaxed">
                 <p>
-                  Dans de nombreuses organisations, le dispositif existe. Mais il
-                  reste souvent peu lisible, insuffisamment formalisé et
-                  dépendant de certaines personnes.
+                  Dans la plupart des organisations, les contrôles existent. Mais
+                  les preuves, documents et supports (mails, fichiers,
+                  outils…) sont dispersés, hétérogènes et difficiles à relire de
+                  manière consolidée.
                 </p>
-                <p>
-                  Nous intervenons pour le rendre structuré, cohérent et
-                  démontrable dans la durée.
+                <p>Le dispositif devient&nbsp;:</p>
+                <ul className="list-none space-y-1.5 pl-1">
+                  <li className="flex items-start gap-2">
+                    <span className="text-navy/40">–</span>
+                    <span>dépendant de certaines personnes</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-navy/40">–</span>
+                    <span>difficile à expliquer clairement</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-navy/40">–</span>
+                    <span>complexe à mobiliser rapidement</span>
+                  </li>
+                </ul>
+                <p className="font-medium text-navy">
+                  Nous intervenons pour structurer l&apos;ensemble et le rendre
+                  lisible, pilotable et transmissible.
                 </p>
               </div>
               <div className="mt-10">
@@ -47,7 +59,7 @@ export default function Accueil() {
             <div className="hidden md:block relative h-full min-h-[480px] rounded-xl overflow-hidden">
               <Image
                 src="/images/hero-bg.jpg"
-                alt="Stylo sur document — JOCA Services"
+                alt="Documents et supports de travail — JOCA Services"
                 fill
                 className="object-cover object-top"
                 priority
@@ -57,94 +69,115 @@ export default function Accueil() {
         </div>
       </section>
 
-      {/* BLOC 2 — PHRASE D'ACCROCHE */}
+      {/* BLOC 2 — TENSION */}
       <section className="bg-navy py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <p className="font-serif italic text-2xl md:text-3xl text-white max-w-3xl mx-auto text-center leading-relaxed">
-            Un dispositif peut fonctionner au quotidien… et devenir pourtant
-            fragile dès qu&apos;il doit être repris, expliqué ou transmis.
+            Le sujet n&apos;est pas l&apos;existence des contrôles. Le sujet est
+            la capacité à les retrouver, les comprendre et les démontrer
+            rapidement.
           </p>
         </div>
       </section>
 
-      {/* BLOC 3 — QUESTION DE POSITIONNEMENT */}
-      <MirrorQuestion />
-
-      {/* BLOC 4 — PROBLÈME */}
+      {/* BLOC 3 — PROBLÈME */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Dans la plupart des organisations
           </h2>
-          <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
-            <p>
-              Le contrôle des délégataires existe. Mais dans les faits&nbsp;:
-            </p>
-            <ul className="list-none space-y-2">
-              <li className="flex items-start gap-2">
-                <span className="text-navy/40">·</span>
-                <span>il est réparti entre plusieurs équipes</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-navy/40">·</span>
-                <span>les responsabilités sont peu clarifiées</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-navy/40">·</span>
-                <span>
-                  les preuves sont difficiles à mobiliser rapidement
-                </span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-navy/40">·</span>
-                <span>
-                  une partie de la connaissance repose sur certaines personnes
-                  clés
-                </span>
-              </li>
-            </ul>
-            <p>
-              En cas d&apos;absence, de départ ou de réorganisation, le
-              dispositif devient difficile à reconstituer et à piloter.
-            </p>
-            <p>
-              Lors d&apos;une revue interne ou externe, la difficulté
-              n&apos;est pas l&apos;existence des contrôles… mais la capacité à
-              les présenter de manière claire, structurée et traçable.
-            </p>
+
+          <div className="mt-8 max-w-2xl space-y-6 text-navy/70 leading-relaxed">
+            <div>
+              <p className="font-medium text-navy">
+                Les contrôles sont réalisés, les preuves existent, les équipes
+                connaissent leur périmètre.
+              </p>
+            </div>
+
+            <div>
+              <p className="font-medium text-navy mb-2">
+                Mais dans les faits&nbsp;:
+              </p>
+              <ul className="list-none space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">–</span>
+                  <span>
+                    les informations sont dispersées (mails, fichiers,
+                    outils…)
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">–</span>
+                  <span>les formats sont hétérogènes</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">–</span>
+                  <span>les responsabilités sont réparties</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">–</span>
+                  <span>
+                    une partie de la connaissance repose sur certaines personnes
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="border-l-4 border-navy pl-4 py-2">
+              <p className="font-medium text-navy">Résultat&nbsp;:</p>
+              <p>
+                Le dispositif fonctionne… mais devient difficile à lire, à
+                consolider et à expliquer dès qu&apos;il faut le mobiliser.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-navy pl-4 py-2">
+              <p className="font-medium text-navy">Et surtout&nbsp;:</p>
+              <p>
+                Il devient fragile dès qu&apos;il doit être repris, partagé ou
+                justifié.
+              </p>
+            </div>
           </div>
+
           <AvantApresSchema />
         </div>
       </section>
 
-      {/* BLOC 5 — CE QUE NOUS APPORTONS */}
+      {/* BLOC 4 — CE QUE NOUS APPORTONS */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Ce que nous apportons
           </h2>
           <p className="mt-6 text-navy/70 max-w-2xl leading-relaxed">
-            Nous intervenons pour structurer le dispositif et le rendre&nbsp;:
+            Nous intervenons pour rendre le dispositif&nbsp;:
           </p>
 
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl">
-            {["Lisible", "Cohérent", "Transmissible", "Pilotable"].map((item) => (
-              <div key={item} className="border-t border-gray-border pt-4">
-                <span className="font-serif text-xl font-semibold text-navy">{item}</span>
-              </div>
-            ))}
+          <div className="mt-10 grid grid-cols-2 md:grid-cols-5 gap-8 max-w-4xl">
+            {["Lisible", "Cohérent", "Transmissible", "Pilotable", "Démontrable"].map(
+              (item) => (
+                <div key={item} className="border-t border-gray-border pt-4">
+                  <span className="font-serif text-xl font-semibold text-navy">
+                    {item}
+                  </span>
+                </div>
+              )
+            )}
           </div>
 
           <div className="mt-10 space-y-2 text-navy/70 leading-relaxed">
-            <p>→ en réduisant la dépendance aux individus</p>
             <p>
-              → en sécurisant la capacité de démonstration du dispositif
+              → en structurant les informations, les preuves et les
+              responsabilités
             </p>
+            <p>→ et en réduisant la dépendance aux individus</p>
           </div>
         </div>
       </section>
 
-      {/* BLOC 6 — LES 3 BRIQUES */}
+      {/* BLOC 5 — LES 3 BRIQUES */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
@@ -161,20 +194,24 @@ export default function Accueil() {
               <ul className="list-none space-y-2 text-navy/70 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>Analyse du dispositif existant</span>
+                  <span>
+                    Comprendre le fonctionnement réel du dispositif
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>Mise à plat du fonctionnement réel</span>
+                  <span>Identifier les zones de fragilité</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>Identification des zones de fragilité</span>
+                  <span>
+                    Mettre en évidence les points difficiles à lire ou à
+                    mobiliser
+                  </span>
                 </li>
               </ul>
-              <p className="text-sm text-navy/50 mt-4">
-                Résultat&nbsp;: une lecture claire, indépendante et un plan
-                d&apos;actions priorisé
+              <p className="text-sm font-medium text-navy mt-4">
+                Résultat&nbsp;: une vision claire et structurée de la situation
               </p>
             </div>
 
@@ -187,21 +224,19 @@ export default function Accueil() {
               <ul className="list-none space-y-2 text-navy/70 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>Clarification des rôles et responsabilités</span>
+                  <span>Organiser les contrôles</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>Formalisation des contrôles</span>
+                  <span>Structurer les supports et les preuves</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>
-                    Organisation de la traçabilité et du pilotage
-                  </span>
+                  <span>Clarifier les rôles et responsabilités</span>
                 </li>
               </ul>
-              <p className="text-sm text-navy/50 mt-4">
-                Résultat&nbsp;: un dispositif structuré, cohérent et démontrable
+              <p className="text-sm font-medium text-navy mt-4">
+                Résultat&nbsp;: un dispositif lisible, cohérent et exploitable
               </p>
             </div>
 
@@ -214,22 +249,19 @@ export default function Accueil() {
               <ul className="list-none space-y-2 text-navy/70 text-sm leading-relaxed">
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>Revue périodique du dispositif</span>
+                  <span>Maintenir la cohérence dans le temps</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>Identification des risques de dérive</span>
+                  <span>Éviter la dispersion progressive</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">·</span>
-                  <span>
-                    Accompagnement des décisions structurantes
-                  </span>
+                  <span>Accompagner les évolutions</span>
                 </li>
               </ul>
-              <p className="text-sm text-navy/50 mt-4">
-                Résultat&nbsp;: un dispositif maintenu dans le temps, sans perte
-                de lisibilité ni de cohérence
+              <p className="text-sm font-medium text-navy mt-4">
+                Résultat&nbsp;: un dispositif qui reste stable et pilotable
               </p>
             </div>
           </div>
@@ -244,16 +276,17 @@ export default function Accueil() {
         </div>
       </section>
 
-      {/* BLOC 7 — MÉTHODE */}
+      {/* BLOC 6 — MÉTHODE */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche structurée&nbsp;: DelegataControl™
           </h2>
           <p className="mt-6 text-navy/70 max-w-2xl leading-relaxed">
-            Une méthode conçue pour analyser le dispositif existant, structurer
-            les contrôles, organiser la gouvernance et garantir la capacité de
-            démonstration.
+            Une méthode conçue pour analyser le fonctionnement réel, structurer
+            les informations et les artefacts (preuves, documents, supports),
+            organiser la gouvernance et garantir une lecture claire et consolidée
+            du dispositif.
           </p>
           <p className="mt-4 text-navy/70 max-w-2xl leading-relaxed">
             Une approche pragmatique, adaptée aux environnements assurance et
@@ -269,27 +302,27 @@ export default function Accueil() {
         </div>
       </section>
 
-      {/* BLOC 8 — FILTRE */}
+      {/* BLOC 7 — FILTRE */}
       <section className="bg-navy py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <p className="font-serif text-xl md:text-2xl text-white max-w-2xl mx-auto text-center leading-relaxed">
             Ce travail s&apos;adresse aux organisations souhaitant structurer
-            durablement leur gouvernance délégataires.
+            durablement leur dispositif de contrôle des délégataires.
           </p>
         </div>
       </section>
 
-      {/* BLOC 9 — CTA FINAL */}
+      {/* BLOC 8 — CTA FINAL */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6 text-center">
           <p className="text-navy/70 leading-relaxed max-w-2xl mx-auto">
-            Vous souhaitez clarifier votre dispositif ou sécuriser sa capacité à
-            être présenté dans la durée&nbsp;?
+            Vous souhaitez vérifier si votre dispositif peut être compris,
+            mobilisé et expliqué clairement à tout moment&nbsp;?
           </p>
           <div className="mt-8">
             <CTAButton
               href="/contact"
-              label="Faire un point sur votre situation"
+              label="Faire un point sur votre dispositif"
             />
           </div>
         </div>

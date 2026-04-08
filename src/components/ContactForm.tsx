@@ -156,6 +156,7 @@ export default function ContactForm() {
           id="message"
           required
           rows={5}
+          placeholder="Précisez brièvement votre contexte, vos enjeux et votre niveau d'avancement."
           value={form.message}
           onChange={(e) => setForm({ ...form, message: e.target.value })}
           className={inputClasses}

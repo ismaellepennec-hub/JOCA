@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import { NAV_LINKS, SITE_NAME, MANIFESTO_QUOTE } from "@/lib/constants";
+import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
 
 export default function Footer() {
   return (
     <footer className="bg-navy text-white/80">
-      {/* Citation */}
+      {/* Signature */}
       <div className="mx-auto max-w-[1120px] px-6 pt-16 pb-8">
-        <blockquote className="text-white/60 font-serif text-lg italic max-w-2xl leading-relaxed">
-          «&nbsp;{MANIFESTO_QUOTE}&nbsp;»
-        </blockquote>
+        <p className="text-white/60 font-serif text-lg italic max-w-2xl leading-relaxed">
+          Un dispositif robuste ne dépend pas de ceux qui le portent.
+        </p>
       </div>
 
       {/* Liens + infos */}

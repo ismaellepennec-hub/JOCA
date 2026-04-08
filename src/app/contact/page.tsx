@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -19,8 +20,8 @@ export default function Contact() {
           <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
             <p>
               Vous souhaitez clarifier votre dispositif de contrôle des
-              délégataires, ou évaluer sa capacité à être structuré et piloté
-              dans la durée&nbsp;?
+              délégataires ou évaluer sa capacité à être structuré et piloté dans
+              la durée&nbsp;?
             </p>
             <p>
               Un premier échange permet d&apos;identifier les enjeux et le
@@ -30,7 +31,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* BLOC 2 — POSITIONNEMENT */}
+      {/* BLOC 2 — FILTRAGE */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
@@ -57,34 +58,58 @@ export default function Contact() {
             </li>
           </ul>
           <p className="mt-4 text-navy/70 leading-relaxed">
-            Dans des organisations souhaitant structurer durablement leur
-            dispositif.
+            Dans des organisations disposant déjà d&apos;un dispositif existant
+            et souhaitant le structurer durablement.
           </p>
         </div>
       </section>
 
-      {/* BLOC 3 — FORMULAIRE */}
+      {/* BLOC 3 — FORMULAIRE + SIDEBAR */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="mt-12 grid grid-cols-1 md:grid-cols-[1fr_320px] gap-16 items-start">
-
             {/* Colonne gauche — formulaire */}
             <div>
-              <h2 className="font-serif text-2xl font-semibold text-navy">Prendre contact</h2>
+              <h2 className="font-serif text-2xl font-semibold text-navy">
+                Prendre contact
+              </h2>
               <p className="mt-3 text-navy/70 leading-relaxed">
-                Merci de préciser votre contexte. Chaque demande est analysée avec attention et une réponse est apportée rapidement.
+                Chaque demande est analysée avec attention. Une réponse est
+                apportée lorsque le sujet correspond au positionnement du
+                cabinet.
               </p>
               <div className="mt-8">
                 <ContactForm />
+              </div>
+
+              {/* Bloc prise de RDV */}
+              <div className="mt-12 border-t border-gray-border pt-10">
+                <h3 className="font-serif text-xl font-semibold text-navy">
+                  Planifier un échange
+                </h3>
+                <p className="mt-3 text-navy/70 leading-relaxed">
+                  Si votre sujet correspond au périmètre d&apos;intervention du
+                  cabinet, vous pouvez directement réserver un créneau
+                  d&apos;échange.
+                </p>
+                <div className="mt-6">
+                  <CTAButton
+                    href="#"
+                    label="Accéder à l'agenda"
+                    variant="outline"
+                  />
+                </div>
               </div>
             </div>
 
             {/* Colonne droite — sticky */}
             <div className="md:sticky md:top-28 border border-gray-border rounded-xl p-8 space-y-6">
               <div>
-                <h3 className="font-serif text-xl font-semibold text-navy">Contact direct</h3>
+                <h3 className="font-serif text-xl font-semibold text-navy">
+                  Contact direct
+                </h3>
                 <p className="mt-2 text-sm text-navy/60 leading-relaxed">
-                  Vous pouvez également nous contacter directement par email.
+                  Vous pouvez également adresser votre demande par email.
                 </p>
                 <a
                   href="mailto:contact@joca-services.fr"
@@ -95,11 +120,11 @@ export default function Contact() {
               </div>
               <div className="border-t border-gray-border pt-6">
                 <p className="font-serif italic text-navy/60 text-sm leading-relaxed">
-                  Chaque demande est analysée avec attention. Une réponse est apportée rapidement afin de proposer un échange adapté à votre situation.
+                  Chaque demande est analysée avec attention. Une réponse est
+                  apportée afin de proposer un échange adapté à la situation.
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </section>

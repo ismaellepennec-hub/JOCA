@@ -16,67 +16,102 @@ export default function Methode() {
       <section className="bg-white py-24 md:py-32">
         <div className="mx-auto max-w-[1120px] px-6">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-navy max-w-3xl leading-tight">
-            Une approche structurée&nbsp;: DelegataControl™
+            Une méthode pour rendre le contrôle des délégataires lisible,
+            structuré et mobilisable à tout moment
           </h1>
-          <p className="mt-4 font-serif text-xl text-navy/60">
-            Une méthode conçue pour structurer et clarifier le dispositif de
-            contrôle des délégataires
-          </p>
-          <p className="mt-8 max-w-2xl text-navy/70 leading-relaxed">
-            DelegataControl™ repose sur un principe simple&nbsp;: un dispositif
-            de contrôle ne doit pas seulement fonctionner, il doit être
-            compréhensible, organisé et démontrable.
+          <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
+            <p>
+              Dans la plupart des organisations, le dispositif existe. Mais il
+              reste difficile à expliquer clairement, à consolider ou à
+              transmettre sans dépendre de certaines personnes.
+            </p>
+            <p className="font-medium text-navy">
+              DelegataControl™ apporte une structure claire, cohérente et
+              durable.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* BLOC 2 — TENSION */}
+      <section className="bg-navy py-16">
+        <div className="mx-auto max-w-[1120px] px-6">
+          <p className="font-serif italic text-2xl md:text-3xl text-white max-w-3xl mx-auto text-center leading-relaxed">
+            Le problème n&apos;est pas de faire des contrôles. Le problème est
+            de pouvoir les expliquer, les relire et les démontrer sans dépendre
+            de ceux qui les connaissent.
           </p>
         </div>
       </section>
 
-      {/* BLOC 2 — OBJECTIF */}
+      {/* BLOC 3 — PRINCIPE DE LA MÉTHODE */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
-            Un objectif clair
+            Un principe simple
           </h2>
           <p className="mt-8 text-navy/70 max-w-2xl leading-relaxed">
-            La méthode vise à transformer un ensemble de pratiques existantes en
-            un dispositif&nbsp;:
+            DelegataControl™ repose sur un principe simple&nbsp;:
+          </p>
+          <p className="mt-4 font-medium text-navy max-w-2xl leading-relaxed">
+            Un dispositif de contrôle ne doit pas seulement fonctionner. Il doit
+            être&nbsp;:
           </p>
 
           <div className="mt-6 max-w-2xl space-y-3">
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Lisible dans son organisation
-              </p>
-            </div>
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Cohérent dans sa gouvernance
-              </p>
-            </div>
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Structuré dans sa traçabilité
-              </p>
-            </div>
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Défendable à tout moment
-              </p>
-            </div>
+            {["Compréhensible", "Structuré", "Consolidé", "Démontrable"].map(
+              (item) => (
+                <div key={item} className="border-l-4 border-navy pl-4 py-2">
+                  <p className="text-navy/70 leading-relaxed">{item}</p>
+                </div>
+              )
+            )}
           </div>
 
-          <p className="mt-8 font-medium text-navy max-w-2xl leading-relaxed">
-            L&apos;enjeu n&apos;est pas d&apos;ajouter de nouveaux contrôles.
-            L&apos;enjeu est de donner une cohérence d&apos;ensemble au
-            dispositif.
+          <p className="mt-6 text-navy/70 max-w-2xl leading-relaxed">
+            → sans dépendre des individus ni des formats d&apos;information.
           </p>
+
+          <div className="mt-10 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
+            <p>
+              Aujourd&apos;hui, les contrôles reposent souvent sur&nbsp;:
+            </p>
+            <ul className="list-none space-y-2">
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">–</span>
+                <span>des documents dispersés</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">–</span>
+                <span>
+                  des supports hétérogènes (mails, fichiers, outils…)
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">–</span>
+                <span>
+                  des artefacts multiples difficiles à relire
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-navy/40">–</span>
+                <span>
+                  une connaissance détenue par certaines personnes
+                </span>
+              </li>
+            </ul>
+            <p className="font-medium text-navy">
+              La méthode vise à remettre de la cohérence dans cet ensemble.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* BLOC 3 — LES 3 ÉTAPES */}
+      {/* BLOC 4 — LES 3 ÉTAPES */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
-            Une approche progressive
+            Une approche progressive en 3 étapes
           </h2>
 
           <div className="mt-12 space-y-16 max-w-2xl">
@@ -88,29 +123,32 @@ export default function Methode() {
                 Clarifier
               </h3>
               <p className="mt-4 text-navy/70 leading-relaxed">
-                Comprendre comment le contrôle des délégataires est organisé
-                aujourd&apos;hui&nbsp;:
+                Comprendre le fonctionnement réel du dispositif&nbsp;:
               </p>
               <ul className="mt-2 list-none space-y-2 text-navy/70">
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Cartographie des délégations en place</span>
+                  <span className="text-navy/40">–</span>
+                  <span>délégations en place</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Responsabilités par direction</span>
+                  <span className="text-navy/40">–</span>
+                  <span>responsabilités</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Contrôles réalisés et leur traçabilité</span>
+                  <span className="text-navy/40">–</span>
+                  <span>contrôles réalisés</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Circuits d&apos;information et gouvernance</span>
+                  <span className="text-navy/40">–</span>
+                  <span>circuits d&apos;information</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-navy/40">–</span>
+                  <span>gouvernance existante</span>
                 </li>
               </ul>
               <p className="mt-4 font-medium text-navy">
-                → Une lecture claire et indépendante du dispositif existant
+                → Une lecture claire, indépendante et consolidée
               </p>
             </div>
 
@@ -126,28 +164,24 @@ export default function Methode() {
               </p>
               <ul className="mt-2 list-none space-y-2 text-navy/70">
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>
-                    Clarification des responsabilités entre directions
-                  </span>
+                  <span className="text-navy/40">–</span>
+                  <span>rôles et responsabilités clarifiés</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Formalisation des processus de contrôle</span>
+                  <span className="text-navy/40">–</span>
+                  <span>processus formalisés</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>
-                    Structuration des supports de traçabilité
-                  </span>
+                  <span className="text-navy/40">–</span>
+                  <span>supports de traçabilité structurés</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Consolidation de la gouvernance</span>
+                  <span className="text-navy/40">–</span>
+                  <span>gouvernance consolidée</span>
                 </li>
               </ul>
               <p className="mt-4 font-medium text-navy">
-                → Un dispositif structuré, lisible et pilotable
+                → Un dispositif lisible, pilotable et démontrable
               </p>
             </div>
 
@@ -159,28 +193,24 @@ export default function Methode() {
                 Stabiliser
               </h3>
               <p className="mt-4 text-navy/70 leading-relaxed">
-                Maintenir la cohérence du dispositif dans le temps&nbsp;:
+                Maintenir la cohérence dans le temps&nbsp;:
               </p>
               <ul className="mt-2 list-none space-y-2 text-navy/70">
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Suivi de l&apos;évolution du dispositif</span>
+                  <span className="text-navy/40">–</span>
+                  <span>suivi des évolutions</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>
-                    Adaptation aux changements organisationnels
-                  </span>
+                  <span className="text-navy/40">–</span>
+                  <span>adaptation aux changements</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>Détection des fragilités émergentes</span>
+                  <span className="text-navy/40">–</span>
+                  <span>détection des fragilités</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-navy/40">·</span>
-                  <span>
-                    Maintien de la lisibilité et de la capacité de démonstration
-                  </span>
+                  <span className="text-navy/40">–</span>
+                  <span>maintien de la lisibilité</span>
                 </li>
               </ul>
               <p className="mt-4 font-medium text-navy">
@@ -194,7 +224,7 @@ export default function Methode() {
       {/* SCHÉMA DELEGATACONTROL™ */}
       <DelegataControlSchema />
 
-      {/* BLOC 4 — CIBLE */}
+      {/* BLOC 5 — CIBLE */}
       <section className="bg-gray-light py-20">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
@@ -218,7 +248,7 @@ export default function Methode() {
         </div>
       </section>
 
-      {/* BLOC 5 — CTA FINAL */}
+      {/* BLOC 6 — CTA FINAL */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-[1120px] px-6 text-center">
           <p className="text-navy/70 leading-relaxed max-w-xl mx-auto">

@@ -9,4 +9,4 @@ export const NAV_LINKS = [
 ] as const;
 
 export const MANIFESTO_QUOTE =
-  "Un dispositif de contrôle n'est réellement robuste que lorsqu'il peut être expliqué, démontré et transmis sans dépendre de ceux qui l'ont conçu.";
+  "Un dispositif de contrôle n'est réellement robuste que lorsqu'il peut être expliqué, démontré et transmis sans dépendre de ceux qui l'ont construit.";
