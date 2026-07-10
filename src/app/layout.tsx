@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | JOCA Services",
   },
   description:
-    "Cabinet indépendant spécialisé dans la structuration du contrôle des délégataires en environnement assurance.",
+    "Cabinet spécialisé dans la structuration du contrôle des délégataires en environnement assurance.",
 };
 
 export default function RootLayout({

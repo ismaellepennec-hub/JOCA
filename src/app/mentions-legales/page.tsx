@@ -21,7 +21,7 @@ export default function MentionsLegales() {
             <p className="mt-4">
               JOCA Services
               <br />
-              Cabinet indépendant spécialisé dans la structuration du contrôle
+              Cabinet spécialisé dans la structuration du contrôle
               des délégataires en environnement assurance.
             </p>
             <p className="mt-2">

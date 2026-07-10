@@ -5,15 +5,8 @@ import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
 export default function Footer() {
   return (
     <footer className="bg-navy text-white/80">
-      {/* Signature */}
-      <div className="mx-auto max-w-[1120px] px-6 pt-16 pb-8">
-        <p className="text-white/60 font-serif text-lg italic max-w-2xl leading-relaxed">
-          Un dispositif robuste ne dépend pas de ceux qui le portent.
-        </p>
-      </div>
-
       {/* Liens + infos */}
-      <div className="mx-auto max-w-[1120px] px-6 pb-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="mx-auto max-w-[1120px] px-6 pt-16 pb-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Col 1 — Cabinet */}
         <div>
           <Image
@@ -24,7 +17,7 @@ export default function Footer() {
             className="h-14 w-auto mb-4"
           />
           <p className="text-sm text-white/60 leading-relaxed">
-            Cabinet indépendant dédié à la structuration du contrôle des
+            Cabinet spécialisé dans la structuration du contrôle des
             délégataires en environnement assurance.
           </p>
         </div>

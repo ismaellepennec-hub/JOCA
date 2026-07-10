@@ -5,7 +5,7 @@ import CTAButton from "@/components/CTAButton";
 export const metadata: Metadata = {
   title: "Le Cabinet",
   description:
-    "JOCA Services est un cabinet indépendant dédié à la structuration du contrôle des délégataires en environnement assurance.",
+    "JOCA Services est un cabinet spécialisé dans la structuration du contrôle des délégataires en environnement assurance.",
 };
 
 export default function Cabinet() {
@@ -129,7 +129,7 @@ export default function Cabinet() {
       <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <p className="font-serif text-xl md:text-2xl italic text-navy/80 max-w-2xl mx-auto text-center leading-relaxed">
-            Un dispositif robuste ne dépend pas de ceux qui le connaissent.
+            Un dispositif n&apos;est maîtrisé que s&apos;il peut être démontré sans vous.
           </p>
         </div>
       </section>
@@ -228,7 +228,7 @@ export default function Cabinet() {
           <div className="mt-8">
             <CTAButton
               href="/contact"
-              label="Faire un point sur votre situation"
+              label="Échanger sur votre dispositif"
             />
           </div>
         </div>
