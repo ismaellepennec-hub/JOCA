@@ -35,7 +35,7 @@ export default function Accueil() {
               <div className="mt-10">
                 <CTAButton
                   href="/contact"
-                  label="Faire un point sur votre situation"
+                  label="Échanger sur votre dispositif"
                 />
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function Accueil() {
           <div className="mt-8">
             <CTAButton
               href="/contact"
-              label="Faire un point sur votre situation"
+              label="Faire un point sur votre dispositif"
               variant="light"
             />
           </div>
