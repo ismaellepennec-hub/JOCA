@@ -271,7 +271,7 @@ export default function Methode() {
           <div className="mt-8">
             <CTAButton
               href="/contact"
-              label="Faire un point sur votre situation"
+              label="Appliquer cette méthode à votre contexte"
             />
           </div>
         </div>
