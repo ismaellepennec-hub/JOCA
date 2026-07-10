@@ -16,7 +16,7 @@ export default function Methode() {
       {/* BLOC 1 — HERO */}
       <section className="bg-white pt-20 md:pt-28 pb-10 md:pb-12">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-navy max-w-3xl leading-tight">
+          <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-tight">
             Une méthode pour rendre votre dispositif de contrôle lisible,
             pilotable et démontrable
           </h1>

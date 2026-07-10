@@ -236,7 +236,7 @@ export default function Accueil() {
       </section>
 
       {/* BLOC 8 — CTA FINAL */}
-      <section className="bg-navy py-20">
+      <section className="bg-navy py-16">
         <div className="mx-auto max-w-[1120px] px-6 text-center">
           <p className="text-white/90 leading-relaxed max-w-2xl mx-auto">
             Vous souhaitez structurer votre dispositif et le rendre

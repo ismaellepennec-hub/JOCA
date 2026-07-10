@@ -15,7 +15,7 @@ export default function Offre() {
       {/* BLOC 1 — HERO */}
       <section className="bg-white pt-20 md:pt-28 pb-10 md:pb-12">
         <div className="mx-auto max-w-[1120px] px-6">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-navy max-w-3xl leading-tight">
+          <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-tight">
             Rendre le contrôle des délégataires lisible et démontrable
           </h1>
           <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
