@@ -70,7 +70,7 @@ export default function AvantApresSchema({
 
   if (variant === "three-col") {
     return (
-      <div className="py-20 md:py-24 bg-white">
+      <div className="pt-6 pb-14 md:pt-8 md:pb-16 bg-white">
         <div className="mx-auto max-w-[1000px] px-6 text-center">
           <h2 className="font-serif text-3xl md:text-[40px] font-normal text-navy mb-14 md:mb-16 tracking-wide leading-snug">
             {t}

@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <>
       {/* BLOC 1 — HERO */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white pt-20 md:pt-28 pb-10 md:pb-12">
         <div className="mx-auto max-w-[1120px] px-6">
           <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-tight">
             Échanger sur votre dispositif
@@ -31,9 +31,9 @@ export default function Contact() {
       </section>
 
       {/* BLOC 2 — FORMULAIRE + SIDEBAR */}
-      <section className="bg-white py-20">
+      <section className="bg-white pt-4 pb-16">
         <div className="mx-auto max-w-[1120px] px-6">
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-[1fr_320px] gap-16 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_320px] gap-16 items-start">
             {/* Colonne gauche — formulaire */}
             <div>
               <h2 className="font-serif text-2xl font-semibold text-navy">

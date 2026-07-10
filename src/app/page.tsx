@@ -13,7 +13,7 @@ export default function Accueil() {
   return (
     <>
       {/* BLOC 1 — HERO */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white pt-20 md:pt-28 pb-10 md:pb-12">
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-12 items-center">
             <div>
@@ -57,7 +57,7 @@ export default function Accueil() {
       <AvantApresSchema variant="three-col" />
 
       {/* BLOC 3 — PROBLÈME */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Un dispositif peut exister… sans être réellement maîtrisé
@@ -104,7 +104,7 @@ export default function Accueil() {
       </section>
 
       {/* BLOC 4 — CE QUE NOUS APPORTONS */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Ce que nous apportons
@@ -132,7 +132,7 @@ export default function Accueil() {
       </section>
 
       {/* BLOC 5 — MÉTHODE (transition) */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche structurée, conçue pour durer
@@ -164,7 +164,7 @@ export default function Accueil() {
       </section>
 
       {/* BLOC 6 — OFFRE (3 briques simplifiées) */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une intervention en trois niveaux
@@ -216,7 +216,7 @@ export default function Accueil() {
       </section>
 
       {/* BLOC 7 ��� CRÉDIBILITÉ */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une expertise ancrée dans le réel

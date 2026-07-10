@@ -13,7 +13,7 @@ export default function Offre() {
   return (
     <>
       {/* BLOC 1 — HERO */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white pt-20 md:pt-28 pb-10 md:pb-12">
         <div className="mx-auto max-w-[1120px] px-6">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-navy max-w-3xl leading-tight">
             Rendre le contrôle des délégataires lisible et démontrable
@@ -83,7 +83,7 @@ export default function Offre() {
       </section>
 
       {/* BLOC 3 — BRIQUE 1 : DIAGNOSTIC */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <p className="text-xs font-medium text-navy/40 uppercase tracking-widest">
             Brique 01
@@ -182,7 +182,7 @@ export default function Offre() {
       </section>
 
       {/* BLOC 4 — BRIQUE 2 : STRUCTURATION */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <p className="text-xs font-medium text-navy/40 uppercase tracking-widest">
             Brique 02
@@ -270,7 +270,7 @@ export default function Offre() {
       </section>
 
       {/* BLOC 5 — BRIQUE 3 : MONITORING */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <p className="text-xs font-medium text-navy/40 uppercase tracking-widest">
             Brique 03
@@ -351,7 +351,7 @@ export default function Offre() {
       </section>
 
       {/* BLOC 6 — DIFFÉRENCIATION */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-3xl">
             <div>
@@ -417,7 +417,7 @@ export default function Offre() {
       </section>
 
       {/* BLOC 7 — CTA FINAL */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="bg-navy rounded-xl py-16 px-8 text-center">
             <p className="text-white/90 leading-relaxed max-w-xl mx-auto text-lg">

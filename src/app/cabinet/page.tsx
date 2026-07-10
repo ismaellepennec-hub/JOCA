@@ -12,7 +12,7 @@ export default function Cabinet() {
   return (
     <>
       {/* BLOC 1 — HERO */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white pt-20 md:pt-28 pb-10 md:pb-12">
         <div className="mx-auto max-w-[1120px] px-6">
           <div className="grid grid-cols-1 md:grid-cols-[60%_38%] gap-12 items-start">
             <div>
@@ -49,7 +49,7 @@ export default function Cabinet() {
       </section>
 
       {/* BLOC 2 — POSITION */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Le dispositif existe. Mais il reste difficile à mobiliser.
@@ -95,7 +95,7 @@ export default function Cabinet() {
       </section>
 
       {/* BLOC 4 — APPROCHE */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche volontairement sobre
@@ -135,7 +135,7 @@ export default function Cabinet() {
       </section>
 
       {/* BLOC 6 — EXPERTISE */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une lecture issue du terrain
@@ -179,7 +179,7 @@ export default function Cabinet() {
       </section>
 
       {/* BLOC 7 — POSITIONNEMENT */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Un choix volontairement ciblé
@@ -219,7 +219,7 @@ export default function Cabinet() {
       </section>
 
       {/* BLOC 9 — CTA FINAL */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6 text-center">
           <p className="text-navy/70 leading-relaxed max-w-xl mx-auto">
             Vous souhaitez clarifier votre dispositif et sécuriser sa capacité à

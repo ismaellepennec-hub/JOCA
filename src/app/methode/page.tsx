@@ -14,7 +14,7 @@ export default function Methode() {
   return (
     <>
       {/* BLOC 1 — HERO */}
-      <section className="bg-white py-24 md:py-32">
+      <section className="bg-white pt-20 md:pt-28 pb-10 md:pb-12">
         <div className="mx-auto max-w-[1120px] px-6">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-navy max-w-3xl leading-tight">
             Une méthode pour rendre votre dispositif de contrôle lisible,
@@ -54,7 +54,7 @@ export default function Methode() {
       </section>
 
       {/* BLOC 3 — PRINCIPE DE LA MÉTHODE */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Un principe simple
@@ -123,7 +123,7 @@ export default function Methode() {
       </section>
 
       {/* BLOC 4 — LES 3 ÉTAPES */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche progressive en 3 étapes
@@ -241,7 +241,7 @@ export default function Methode() {
       <DelegataControlSchema />
 
       {/* BLOC 5 — CIBLE */}
-      <section className="bg-gray-light py-20">
+      <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche adaptée aux organisations structurées
@@ -262,7 +262,7 @@ export default function Methode() {
       </section>
 
       {/* BLOC 6 — CTA FINAL */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-[1120px] px-6 text-center">
           <p className="text-navy/70 leading-relaxed max-w-xl mx-auto">
             Vous souhaitez comprendre comment cette approche pourrait
