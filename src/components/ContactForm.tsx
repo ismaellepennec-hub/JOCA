@@ -9,7 +9,6 @@ interface FormData {
   fonction: string;
   organisation: string;
   email: string;
-  contexte: string;
   message: string;
 }
 
@@ -22,7 +21,6 @@ export default function ContactForm() {
     fonction: "",
     organisation: "",
     email: "",
-    contexte: "",
     message: "",
   });
   const [status, setStatus] = useState<FormStatus>("idle");
@@ -129,26 +127,6 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="contexte" className="block text-sm font-medium text-navy mb-1.5">
-          Contexte de la demande
-        </label>
-        <select
-          id="contexte"
-          value={form.contexte}
-          onChange={(e) => setForm({ ...form, contexte: e.target.value })}
-          className={inputClasses}
-        >
-          <option value="" disabled>
-            Sélectionnez votre contexte
-          </option>
-          <option value="structuration">Structuration du dispositif</option>
-          <option value="clarification">Besoin de clarification</option>
-          <option value="audit">Préparation d&apos;un audit / revue</option>
-          <option value="autre">Autre</option>
-        </select>
-      </div>
-
-      <div>
         <label htmlFor="message" className="block text-sm font-medium text-navy mb-1.5">
           Message
         </label>
@@ -176,7 +154,7 @@ export default function ContactForm() {
       >
         {status === "submitting"
           ? "Envoi en cours…"
-          : "Demander un échange stratégique"}
+          : "Envoyer ma demande"}
       </button>
     </form>
   );
