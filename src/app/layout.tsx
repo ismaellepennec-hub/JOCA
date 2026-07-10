@@ -18,12 +18,30 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jocav1.netlify.app"),
   title: {
     default: "JOCA Services — Structuration du contrôle des délégataires",
     template: "%s | JOCA Services",
   },
   description:
     "Cabinet spécialisé dans la structuration du contrôle des délégataires en environnement assurance.",
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    siteName: "JOCA Services",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "JOCA Services — Structuration du contrôle des délégataires",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
