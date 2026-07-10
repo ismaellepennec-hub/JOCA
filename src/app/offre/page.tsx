@@ -427,7 +427,7 @@ export default function Offre() {
             <div className="mt-8">
               <CTAButton
                 href="/contact"
-                label="Demander un échange stratégique"
+                label="Demander un premier échange"
                 variant="light"
               />
             </div>
