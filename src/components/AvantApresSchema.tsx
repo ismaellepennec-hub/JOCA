@@ -70,59 +70,50 @@ export default function AvantApresSchema({
 
   if (variant === "three-col") {
     return (
-      <div className="pt-6 pb-14 md:pt-8 md:pb-16 bg-white">
-        <div className="mx-auto max-w-[1000px] px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-[40px] font-normal text-navy mb-14 md:mb-16 tracking-wide leading-snug">
+      <div className="bg-white py-20">
+        <div className="mx-auto max-w-[1200px] px-6 text-center">
+          {/* TITRE */}
+          <h2 className="font-serif text-3xl md:text-[40px] font-normal text-navy mb-10 md:mb-[60px] tracking-[0.5px] leading-snug">
             {t}
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-6 md:gap-0 items-stretch">
-            {/* GAUCHE — Situation initiale */}
-            <div className="border border-gray-border rounded-lg p-6 md:p-8 text-left">
-              <h3 className="text-sm font-medium uppercase tracking-widest text-navy/40 mb-5">
-                {aT}
-              </h3>
-              <div className="space-y-3 text-navy/70">
+          {/* GRILLE 30% / 40% / 30% */}
+          <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+            {/* GAUCHE (30%) — Situation initiale */}
+            <div className="w-full md:w-[30%] text-left font-sans text-[#6B7280]">
+              <h3 className="text-[18px] font-medium mb-5 text-[#9CA3AF]">{aT}</h3>
+              <div className="space-y-2 leading-relaxed">
                 {aI.map((item) => (
-                  <p key={item} className="flex items-start gap-2 leading-relaxed">
-                    <span className="text-navy/30 shrink-0">–</span>
-                    <span>{item}</span>
-                  </p>
+                  <p key={item}>– {item}</p>
                 ))}
               </div>
             </div>
 
-            {/* CENTRE — DelegataControl™ */}
-            <div className="flex items-center justify-center px-4 md:px-8">
-              <div className="bg-[#0F172A] text-white py-8 md:py-10 px-6 md:px-10 text-center rounded-lg w-full md:w-auto md:min-w-[280px]">
-                <h3 className="text-xl md:text-2xl font-serif font-semibold mb-4">
-                  DelegataControl™
-                </h3>
-                <p className="text-sm tracking-widest text-white/70">
-                  Clarifier → Structurer → Stabiliser
-                </p>
-              </div>
+            {/* CENTRE (40%) — DelegataControl™ (bloc plat, sans ombre/contour/texture) */}
+            <div className="w-full md:w-[40%] bg-[#0F172A] text-white p-10 text-center">
+              <h3 className="font-serif text-[28px] font-semibold mb-5">
+                DelegataControl™
+              </h3>
+              <p className="font-sans text-[16px] tracking-[1px] text-white/80">
+                Clarifier → Structurer → Stabiliser
+              </p>
             </div>
 
-            {/* DROITE — Résultat */}
-            <div className="border border-gray-border rounded-lg p-6 md:p-8 text-left">
-              <h3 className="text-sm font-medium uppercase tracking-widest text-navy/40 mb-5">
-                {pT}
-              </h3>
-              <div className="space-y-3 text-navy/70">
+            {/* DROITE (30%) — Résultat */}
+            <div className="w-full md:w-[30%] text-left font-sans text-[#111827]">
+              <h3 className="text-[18px] font-medium mb-5">{pT}</h3>
+              <div className="space-y-2 leading-relaxed">
                 {pI.map((item) => (
-                  <p key={item} className="flex items-start gap-2 leading-relaxed">
-                    <span className="text-navy/30 shrink-0">–</span>
-                    <span>{item}</span>
-                  </p>
+                  <p key={item}>– {item}</p>
                 ))}
               </div>
             </div>
           </div>
 
-          <p className="mt-12 md:mt-14 text-lg text-navy/70 tracking-wide">
+          {/* SIGNATURE */}
+          <div className="mt-[60px] font-serif text-[20px] text-navy tracking-wide">
             {bl}
-          </p>
+          </div>
         </div>
       </div>
     );
