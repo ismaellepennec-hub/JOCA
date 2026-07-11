@@ -5,7 +5,7 @@ import CTAButton from "@/components/CTAButton";
 export const metadata: Metadata = {
   title: "Le Cabinet",
   description:
-    "JOCA Services est un cabinet spécialisé dans la structuration du contrôle des délégataires en environnement assurance.",
+    "JOCA Services, cabinet spécialisé dans la structuration du contrôle des délégataires en environnement assurance, pour un dispositif lisible et démontrable.",
 };
 
 export default function Cabinet() {
@@ -36,7 +36,7 @@ export default function Cabinet() {
             <div className="flex justify-center md:justify-end">
               <div className="bg-gray-light p-3 rounded-xl">
                 <Image
-                  src="/images/cabinet-photo.png"
+                  src="/images/cabinet-photo.jpg"
                   alt="George-Carole BARBIER — Fondatrice de JOCA Services"
                   width={300}
                   height={450}

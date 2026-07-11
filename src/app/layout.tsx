@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | JOCA Services",
   },
   description:
-    "Cabinet spécialisé dans la structuration du contrôle des délégataires en environnement assurance.",
+    "JOCA Services, cabinet spécialisé dans la structuration du contrôle des délégataires en assurance : un dispositif lisible, pilotable et démontrable durablement.",
   openGraph: {
     type: "website",
     locale: "fr_FR",

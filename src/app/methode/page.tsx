@@ -7,7 +7,7 @@ import ManifestoQuote from "@/components/ManifestoQuote";
 export const metadata: Metadata = {
   title: "Méthode DelegataControl™",
   description:
-    "DelegataControl™ est une méthode de structuration du contrôle des délégataires pour les organismes assureurs.",
+    "DelegataControl™ : la méthode JOCA Services pour structurer le contrôle des délégataires des assureurs et le rendre lisible, pilotable et démontrable.",
 };
 
 export default function Methode() {

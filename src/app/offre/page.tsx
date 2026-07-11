@@ -6,7 +6,7 @@ import DelegataControlSimplified from "@/components/DelegataControlSimplified";
 export const metadata: Metadata = {
   title: "Offre",
   description:
-    "Diagnostic, structuration et monitoring du dispositif de contrôle des délégataires — une intervention structurée par JOCA Services.",
+    "Diagnostic, structuration et monitoring du contrôle des délégataires : une intervention structurée en trois niveaux menée par JOCA Services pour les assureurs.",
 };
 
 export default function Offre() {

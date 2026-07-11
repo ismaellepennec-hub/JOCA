@@ -6,7 +6,7 @@ import CTAButton from "@/components/CTAButton";
 export const metadata: Metadata = {
   title: "JOCA Services — Structuration du contrôle des délégataires",
   description:
-    "JOCA Services accompagne les organismes assureurs dans la structuration et la lisibilité de leur dispositif de contrôle des délégataires.",
+    "JOCA Services aide les organismes assureurs à structurer leur dispositif de contrôle des délégataires pour le rendre lisible, pilotable et démontrable.",
 };
 
 export default function Accueil() {

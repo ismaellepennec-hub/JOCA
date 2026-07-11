@@ -4,7 +4,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Échangez avec JOCA Services sur votre dispositif de contrôle des délégataires — premier échange pour évaluer votre situation.",
+    "Échangez avec JOCA Services sur votre dispositif de contrôle des délégataires : un premier échange pour évaluer votre situation et vos besoins de structuration.",
 };
 
 export default function Contact() {
