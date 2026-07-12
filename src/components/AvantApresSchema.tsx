@@ -128,8 +128,8 @@ export default function AvantApresSchema({
         </p>
 
         <div className="flex flex-col md:flex-row items-stretch gap-0 rounded-xl overflow-hidden">
-          {/* AVANT */}
-          <div className="md:w-[45%] bg-[#1E293B] text-white p-6 md:p-10">
+          {/* AVANT — dégradé "désordre" (gris atmosphérique → marine profond) */}
+          <div className="md:w-[45%] text-white p-6 md:p-10 bg-gradient-to-br from-[#3B4656] via-[#1E293B] to-[#0B1220]">
             <p className="text-xs font-medium uppercase tracking-widest text-white/50 mb-3">
               Avant
             </p>
