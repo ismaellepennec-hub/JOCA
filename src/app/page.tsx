@@ -23,13 +23,13 @@ export default function Accueil() {
               </h1>
               <div className="mt-8 max-w-xl space-y-4 text-navy/70 leading-relaxed">
                 <p>
-                  Dans la plupart des organisations, le dispositif existe.
-                  Mais il reste difficile à lire, à consolider et à défendre
-                  dans la durée.
+                  Le dispositif existe souvent déjà. Mais avec le temps, les
+                  preuves se dispersent, les responsabilités se brouillent et
+                  les audits mobilisent davantage les équipes.
                 </p>
                 <p className="font-medium text-navy">
-                  Nous structurons ce qui existe déjà pour le rendre
-                  compréhensible, mobilisable et démontrable à tout moment.
+                  JOCA Services structure l&apos;existant pour le rendre lisible,
+                  pilotable et démontrable dans la durée.
                 </p>
               </div>
               <div className="mt-10">
@@ -93,10 +93,11 @@ export default function Accueil() {
 
             <div className="border-l-4 border-navy pl-4 py-2">
               <p className="font-medium text-navy">
-                Le sujet n&apos;est pas d&apos;ajouter.
+                Le sujet n&apos;est pas d&apos;ajouter des contrôles.
               </p>
               <p className="font-medium text-navy">
-                Le sujet est de structurer, clarifier et rendre défendable.
+                Il est de relier responsabilités, preuves et gouvernance pour
+                préserver une lecture d&apos;ensemble.
               </p>
             </div>
           </div>
@@ -239,13 +240,13 @@ export default function Accueil() {
       <section className="bg-navy py-16">
         <div className="mx-auto max-w-[1120px] px-6 text-center">
           <p className="text-white/90 leading-relaxed max-w-2xl mx-auto">
-            Vous souhaitez structurer votre dispositif et le rendre
-            mobilisable à tout moment&nbsp;?
+            Vous souhaitez évaluer la lisibilité, le pilotage et la
+            démontrabilité de votre dispositif&nbsp;?
           </p>
           <div className="mt-8">
             <CTAButton
               href="/contact"
-              label="Faire un point sur votre dispositif"
+              label="Demander un premier échange"
               variant="light"
             />
           </div>

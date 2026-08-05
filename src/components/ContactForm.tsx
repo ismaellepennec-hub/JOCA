@@ -158,7 +158,7 @@ export default function ContactForm() {
         disabled={status === "submitting"}
         className="mt-8 w-full rounded-md bg-[#0F172A] text-white text-[15px] font-medium px-8 py-4 transition-colors hover:bg-[#1E293B] disabled:opacity-60 disabled:cursor-not-allowed"
       >
-        {status === "submitting" ? "Envoi en cours…" : "Envoyer ma demande"}
+        {status === "submitting" ? "Envoi en cours…" : "Demander un premier échange"}
       </button>
     </form>
   );

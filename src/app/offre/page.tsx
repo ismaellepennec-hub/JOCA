@@ -25,8 +25,8 @@ export default function Offre() {
               lecture du dispositif reste fragmentée.
             </p>
             <p className="font-medium text-navy">
-              Nous structurons l&apos;ensemble pour le rendre compréhensible,
-              pilotable et mobilisable à tout moment.
+              Nous structurons l&apos;ensemble pour le rendre lisible,
+              pilotable et démontrable à tout moment.
             </p>
           </div>
           <div className="mt-10">
@@ -65,8 +65,8 @@ export default function Offre() {
       <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold text-navy max-w-3xl leading-relaxed">
-            Trois briques pour transformer votre dispositif en un système
-            lisible, pilotable et défendable
+            Trois briques pour rendre votre dispositif lisible, pilotable et
+            démontrable
           </h2>
           <div className="mt-6 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
             <p>
@@ -390,24 +390,25 @@ export default function Offre() {
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">–</span>
                   <span>
-                    Une lecture consolidée du dispositif
+                    Une lecture consolidée pour accélérer les arbitrages
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">–</span>
                   <span>
-                    Une structuration claire et compréhensible
+                    Des responsabilités clarifiées pour limiter les zones grises
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">–</span>
-                  <span>Une capacité de démonstration</span>
+                  <span>
+                    Des preuves plus rapides à retrouver et à mobiliser
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-navy/40">–</span>
                   <span>
-                    Une réduction de la dépendance aux individus et aux formats
-                    d&apos;information
+                    Une préparation plus fluide des audits et des contrôles
                   </span>
                 </li>
               </ul>

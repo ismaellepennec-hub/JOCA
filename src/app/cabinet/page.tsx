@@ -22,13 +22,14 @@ export default function Cabinet() {
               </h1>
               <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
                 <p>
-                  Le contrôle des délégataires existe dans la plupart des
-                  organisations. Mais il reste souvent difficile à lire, à
-                  piloter et à défendre dans la durée.
+                  JOCA Services concentre son expertise sur un enjeu
+                  précis&nbsp;: rendre le contrôle des délégataires lisible,
+                  pilotable et démontrable.
                 </p>
                 <p>
-                  Le cabinet intervient pour structurer l&apos;existant et
-                  rendre le dispositif lisible, cohérent et démontrable.
+                  Cette spécialisation relie gouvernance, responsabilités,
+                  contrôles et preuves dans une méthode conçue pour les
+                  mutuelles et institutions de prévoyance.
                 </p>
               </div>
             </div>
@@ -52,33 +53,35 @@ export default function Cabinet() {
       <section className="bg-gray-light py-16">
         <div className="mx-auto max-w-[1120px] px-6">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
-            Le dispositif existe. Mais il reste difficile à mobiliser.
+            Notre vision&nbsp;: un dispositif qui reste lisible, pilotable et
+            démontrable
           </h2>
           <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
-            <p>Dans la majorité des organisations&nbsp;:</p>
+            <p>Au fil des évolutions&nbsp;:</p>
             <ul className="list-none space-y-2">
               <li className="flex items-start gap-2">
                 <span className="text-navy/40">–</span>
-                <span>la lecture globale est limitée</span>
+                <span>les responsabilités se brouillent</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-navy/40">–</span>
-                <span>les responsabilités sont diffuses</span>
+                <span>les preuves se dispersent</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-navy/40">–</span>
-                <span>les preuves sont dispersées</span>
+                <span>les audits mobilisent davantage les équipes</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-navy/40">–</span>
-                <span>la démonstration reste fragile</span>
+                <span>la dépendance aux personnes clés augmente</span>
               </li>
             </ul>
           </div>
           <div className="mt-6 max-w-2xl">
             <p className="font-medium text-navy leading-relaxed">
-              L&apos;enjeu n&apos;est pas d&apos;ajouter.
-              L&apos;enjeu est de structurer.
+              L&apos;enjeu n&apos;est pas d&apos;ajouter des contrôles, mais de
+              préserver une capacité durable de lecture, de pilotage et de
+              démonstration.
             </p>
           </div>
         </div>
@@ -100,27 +103,16 @@ export default function Cabinet() {
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-navy max-w-3xl">
             Une approche volontairement sobre
           </h2>
-          <div className="mt-8 max-w-2xl space-y-4">
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Partir du fonctionnement réel.
-              </p>
-            </div>
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Structurer sans complexifier.
-              </p>
-            </div>
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Organiser les preuves autant que les contrôles.
-              </p>
-            </div>
-            <div className="border-l-4 border-navy pl-4 py-2">
-              <p className="text-navy/70 leading-relaxed">
-                Rendre le dispositif indépendant des personnes.
-              </p>
-            </div>
+          <div className="mt-8 max-w-2xl space-y-4 text-navy/70 leading-relaxed">
+            <p>
+              En complément des équipes internes, JOCA Services apporte un
+              regard externe pour relier les informations et objectiver les
+              fragilités.
+            </p>
+            <p>
+              Une mission réussie laisse un dispositif que les équipes peuvent
+              expliquer, piloter et faire évoluer.
+            </p>
           </div>
         </div>
       </section>
@@ -188,22 +180,25 @@ export default function Cabinet() {
             <li className="flex items-start gap-2 text-navy/70">
               <span className="text-navy mt-0.5">—</span>
               <span>
-                Spécialisation sur le contrôle des délégataires.
+                Expertise concentrée sur le contrôle des délégataires
               </span>
             </li>
             <li className="flex items-start gap-2 text-navy/70">
               <span className="text-navy mt-0.5">—</span>
               <span>
-                Focalisation sur la lisibilité du dispositif.
+                Méthode dédiée aux mutuelles et institutions de prévoyance
               </span>
             </li>
             <li className="flex items-start gap-2 text-navy/70">
               <span className="text-navy mt-0.5">—</span>
-              <span>Approche ancrée dans le réel.</span>
+              <span>
+                Lecture croisée des contrôles, preuves et gouvernance
+              </span>
             </li>
           </ul>
           <p className="mt-6 text-navy/70 leading-relaxed max-w-2xl">
-            Pas de logique de production. Une logique de structuration.
+            Cette focalisation apporte une profondeur difficile à obtenir dans
+            une approche généraliste.
           </p>
         </div>
       </section>

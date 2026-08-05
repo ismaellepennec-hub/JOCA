@@ -205,10 +205,10 @@ export default function Methode() {
               <span className="text-sm font-medium text-navy/40">Étape 3</span>
               <div className="border-t border-gray-border mt-2 mb-4" />
               <h3 className="font-serif text-2xl font-semibold text-navy">
-                Stabiliser
+                Piloter
               </h3>
               <p className="mt-4 text-navy/70 leading-relaxed">
-                Maintenir un dispositif stable et pilotable dans le
+                Maintenir la lisibilité et la capacité de démonstration dans le
                 temps&nbsp;:
               </p>
               <ul className="mt-2 list-none space-y-2 text-navy/70">
@@ -230,7 +230,7 @@ export default function Methode() {
                 </li>
               </ul>
               <p className="mt-4 font-medium text-navy">
-                → Un dispositif durable, indépendant des personnes clés
+                → Un dispositif durable, moins dépendant des personnes clés
               </p>
             </div>
           </div>

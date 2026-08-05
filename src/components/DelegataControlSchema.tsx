@@ -58,7 +58,7 @@ export default function DelegataControlSchema() {
           {/* ======================== */}
           <rect x="510" y="80" width="180" height="76" rx="10" fill="currentColor" fillOpacity="0.03" stroke="currentColor" strokeWidth="1.4" opacity="0.6"/>
           <text fontFamily="var(--font-inter), sans-serif" fontSize="12" fontWeight="500" x="600" y="106" textAnchor="middle" fill="currentColor" opacity="0.45">03</text>
-          <text fontFamily="var(--font-cormorant), serif" fontSize="20" fontWeight="600" x="600" y="134" textAnchor="middle" fill="currentColor">Stabiliser</text>
+          <text fontFamily="var(--font-cormorant), serif" fontSize="20" fontWeight="600" x="600" y="134" textAnchor="middle" fill="currentColor">Piloter</text>
 
           {/* Flèche vers détails */}
           <line x1="600" y1="158" x2="600" y2="220" stroke="currentColor" strokeWidth="1.5" opacity="0.5" markerEnd="url(#arrow)"/>

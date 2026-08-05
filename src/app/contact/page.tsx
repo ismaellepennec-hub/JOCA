@@ -14,17 +14,16 @@ export default function Contact() {
       <section className="bg-white pt-20 md:pt-32 pb-16 md:pb-24">
         <div className="mx-auto max-w-[1120px] px-6">
           <h1 className="font-serif text-4xl md:text-5xl font-semibold text-navy max-w-3xl leading-[1.2] tracking-[-0.5px]">
-            Échanger sur votre dispositif
+            Évaluer votre dispositif actuel
           </h1>
           <div className="mt-6 max-w-2xl space-y-4 text-[17px] md:text-[18px] leading-[1.6] text-[#374151]">
             <p>
-              Vous souhaitez clarifier votre dispositif de contrôle des
-              délégataires ou évaluer sa capacité à être structuré et piloté dans
-              la durée&nbsp;?
+              Vous souhaitez vérifier la lisibilité, le pilotage ou la
+              démontrabilité de votre contrôle des délégataires&nbsp;?
             </p>
             <p>
-              Un premier échange permet d&apos;identifier les enjeux et le
-              niveau d&apos;intervention adapté.
+              Un premier échange permet de situer vos enjeux et de déterminer si
+              l&apos;intervention de JOCA Services est adaptée.
             </p>
           </div>
         </div>
@@ -63,12 +62,6 @@ export default function Contact() {
               >
                 contact@joca-services.fr
               </a>
-              <div className="mt-6 border-t border-[#E5E7EB] pt-6">
-                <p className="font-serif italic text-[15px] leading-[1.6] text-[#6B7280]">
-                  Chaque demande est analysée avec attention. Une réponse est
-                  apportée afin de proposer un échange adapté à la situation.
-                </p>
-              </div>
             </div>
           </div>
         </div>

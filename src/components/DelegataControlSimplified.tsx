@@ -60,7 +60,7 @@ export default function DelegataControlSimplified() {
             <span className="text-white/40">→</span>
             <span className="font-medium">Structurer</span>
             <span className="text-white/40">→</span>
-            <span className="font-medium">Stabiliser</span>
+            <span className="font-medium">Piloter</span>
           </div>
           <div className="mt-6 space-y-3 text-sm text-white/70">
             <div>
@@ -72,8 +72,8 @@ export default function DelegataControlSimplified() {
               <p>Organiser contrôles, responsabilités et preuves</p>
             </div>
             <div>
-              <p className="font-medium text-white/90">Stabiliser</p>
-              <p>Maintenir la cohérence dans le temps</p>
+              <p className="font-medium text-white/90">Piloter</p>
+              <p>Maintenir la lisibilité et la capacité de démonstration dans le temps</p>
             </div>
           </div>
         </div>

@@ -24,14 +24,14 @@ const defaults = {
       "Vision consolidée",
       "Pilotage structuré",
       "Preuves accessibles",
-      "Dispositif défendable",
+      "Dispositif démontrable",
     ],
   },
   "two-col": {
     title:
       "D\u2019un dispositif difficile à exploiter à un dispositif structuré et démontrable",
     baseline:
-      "Structuré = lisible, pilotable et défendable à tout moment",
+      "Structuré = lisible, pilotable et démontrable à tout moment",
     avantTitle: "Dispositif fragile",
     apresTitle: "Dispositif structuré et pilotable",
     avantItems: [
@@ -95,7 +95,7 @@ export default function AvantApresSchema({
                 DelegataControl™
               </h3>
               <p className="font-sans text-[16px] tracking-[1px] text-white/80">
-                Clarifier → Structurer → Stabiliser
+                Clarifier → Structurer → Piloter
               </p>
             </div>
 
