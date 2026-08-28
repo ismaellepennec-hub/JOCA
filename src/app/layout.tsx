@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jocav1.netlify.app"),
+  metadataBase: new URL("https://joca-services.fr"),
   title: {
     default: "JOCA Services — Structuration du contrôle des délégataires",
     template: "%s | JOCA Services",
