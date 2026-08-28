@@ -2,7 +2,9 @@ export default function DelegataControlSchema() {
   return (
     <section className="bg-white py-16">
       <div className="mx-auto max-w-[1120px] px-6">
-        <svg width="100%" viewBox="0 0 720 510" xmlns="http://www.w3.org/2000/svg">
+        {/* Mobile : défilement horizontal + largeur mini lisible. Desktop inchangé. */}
+        <div className="overflow-x-auto">
+          <svg width="100%" viewBox="0 0 720 510" xmlns="http://www.w3.org/2000/svg" className="min-w-[640px] md:min-w-0">
           <defs>
             <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
               <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -82,6 +84,10 @@ export default function DelegataControlSchema() {
           <line x1="360" y1="334" x2="360" y2="390" stroke="currentColor" strokeWidth="1.2" opacity="0.3" markerEnd="url(#arrow)"/>
           <line x1="600" y1="334" x2="520" y2="390" stroke="currentColor" strokeWidth="1.2" opacity="0.3" markerEnd="url(#arrow)"/>
         </svg>
+        </div>
+        <p className="md:hidden mt-3 text-center text-xs text-navy/40">
+          Faites glisser le schéma horizontalement&nbsp;→
+        </p>
       </div>
     </section>
   );
